@@ -6,16 +6,19 @@ function BoardMember(name, homeState, training){
 BoardMember.prototype.veto = function() {
 return 'No, I must disagree';  
 }
+BoardMember.prototype.aprove =  function() {
+  return 'You can do that!';
+}
 // function BoardMember(name, homeState, training){
 //   this.name = name;
 //   this.homeState = homeState;
 //   this.training = training;
 // }
-// 
+//
 // BoardMember.prototype.veto = function() {
 //   return 'No, I must disagree';
 // }
-// 
+//
 // BoardMember.prototype.approve = function() {
 //   return 'You can do that!';
 // }
@@ -28,10 +31,10 @@ return 'No, I must disagree';
 // BoardMember.prototype.sayHi = function(){
 //   return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`;
 // }
-// 
-// 
-// 
-// 
+//
+//
+//
+//
 // //
 // //   this.sayHi = function(){
 // //     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
